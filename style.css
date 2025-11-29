@@ -73,16 +73,16 @@ body{
     background-color: seagreen;
 }
 .test3 .bb1 a{
-    font-size: 60px;
+    font-size: 30px;
 }
 .test3 .bb2 a{
-    font-size: 85px;
+    font-size: 45px;
 }
 .test3 .bb3 a{
-    font-size: 60px;
+    font-size: 25px;
 }
 .test3 .bb4{
-    font-size: 65px;
+    font-size: 30px;
     border-radius: 50px;
     background-color: black;
 }
@@ -90,7 +90,7 @@ body{
     background-color: seagreen;
 }
 .test3 .bb5{
-    font-size: 40px;
+    font-size: 20px;
     border-radius: 50px;
     background-color: black;
 }
@@ -98,7 +98,7 @@ body{
     background-color: seagreen;
 }
 .test3 .bb6{
-    font-size: 65px;
+    font-size: 30px;
     border-radius: 50px;
     background-color: black;
 }
@@ -129,7 +129,7 @@ h1{
 
 .m1 h2{
     text-align: center;
-    font-size: 95px;
+    font-size: 80px;
     color: darkred;
 }
 .m1 p{
