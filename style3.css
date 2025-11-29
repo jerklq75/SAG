@@ -1,0 +1,35 @@
+body{
+    background-image: url(button.jpg);
+}
+.test1{
+    text-align: right;
+    font-size: x-large;
+    
+}
+.test1 a{
+    text-decoration: none;
+    color: white;
+}
+.test1 a:hover{
+    color: skyblue;
+}
+.test2{ 
+    text-align: center;
+}
+
+.test2 button a{
+    text-decoration: none;
+    color: skyblue;
+
+}
+.test2 button{
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0.5rem;
+    
+    
+}
+.test2 button:hover{
+    background-color: seagreen;
+}

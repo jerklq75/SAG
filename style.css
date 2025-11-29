@@ -1,0 +1,187 @@
+body{ 
+    
+    background-color: #D3D3D3;
+    opacity: 100%;
+}
+.test1{
+    text-align: right;
+    font-size: x-large;
+    margin: 20px;
+    
+    
+}
+.test1 a{
+    text-decoration: none;
+    color: black;
+}
+.test1 a:hover{
+    color: skyblue;
+}
+.test2 h1{
+    display: block;
+    text-align: center;
+    font-size: 120px;
+    color: black;
+}
+
+
+.test2 p{
+    text-align: right;
+    font-size: 25px;
+    color: rgb(27, 179, 93);
+}
+.test3 {
+    text-align: center;
+    
+}
+.test3 a{
+    text-decoration: none;
+    color: skyblue;
+}
+.test3 button{
+    height: 5cm;
+    background-color: black;
+    margin: 1rem;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+.test3 .bb2{
+    font-size: 70px;
+    border-radius: 50px;
+    
+          
+}
+.test3 .bb1{
+    font-size: 100px;
+    border-radius: 50px;
+}
+.test3 .bb3{
+    font-size: 40px;
+    border-radius: 50px;
+}
+.test3 .bb1:hover{
+    background-color: seagreen;
+
+}   
+.test3 .bb2:hover{
+    background-color: seagreen;
+}
+.test3 .bb3:hover{
+    background-color: seagreen;
+}
+.test3 .bb1 a{
+    font-size: 60px;
+}
+.test3 .bb2 a{
+    font-size: 90px;
+}
+.test3 .bb3 a{
+    font-size: 60px;
+}
+.test3 .bb4{
+    font-size: 65px;
+    border-radius: 50px;
+    background-color: black;
+}
+.test3 .bb4:hover{
+    background-color: seagreen;
+}
+.test3 .bb5{
+    font-size: 40px;
+    border-radius: 50px;
+    background-color: black;
+}
+.test3 .bb5:hover{
+    background-color: seagreen;
+}
+h1{
+    display: inline;
+
+}
+
+.test2 h2{
+    text-align: right;
+    color: white;
+    font-size: 40px;
+}
+.test2 h2{
+    text-align: right;
+    
+    font-size: 40px;
+    color: white;
+}
+.test2 img{
+    height: 400px;
+    
+
+}
+
+.m1 h2{
+    text-align: center;
+    font-size: 95px;
+    color: darkred;
+}
+.m1 p{
+    text-align: right;
+    font-size: 30px;
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+
+    
+    
+    
+
+
+    
+      
+
+
+
+
+    
+
+
+
+    
+
+
+
+   
+   
+    
