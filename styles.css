@@ -22,6 +22,6 @@ body{
     text-decoration: none;
     color: skyblue;
 }
-.test2 a:hover{
+.test2 button:hover{
     background-color: seagreen;
 }
