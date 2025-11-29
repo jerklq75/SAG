@@ -76,7 +76,7 @@ body{
     font-size: 60px;
 }
 .test3 .bb2 a{
-    font-size: 90px;
+    font-size: 85px;
 }
 .test3 .bb3 a{
     font-size: 60px;
@@ -95,6 +95,14 @@ body{
     background-color: black;
 }
 .test3 .bb5:hover{
+    background-color: seagreen;
+}
+.test3 .bb6{
+    font-size: 65px;
+    border-radius: 50px;
+    background-color: black;
+}
+.test3 .bb6:hover{
     background-color: seagreen;
 }
 h1{
