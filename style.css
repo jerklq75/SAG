@@ -1,6 +1,6 @@
 body{ 
     
-    background-color: #D3D3D3;
+    background-color: rgba(0, 68, 255, 0.822);
     opacity: 100%;
 }
 .test1{
@@ -17,18 +17,52 @@ body{
 .test1 a:hover{
     color: skyblue;
 }
-.test2 h1{
-    display: block;
+.test{
     text-align: center;
-    font-size: 120px;
-    color: black;
 }
+.test h1{
+    display: inline;
+    
+}
+.test h1{
+    color: black;
+    font-size: 150px;
+}
+.test h2{
+    display: inline;
+    color: white;
+    font-size: 150px;
+}
+.test h3{
+    display: inline;
+    color: white;
+    font-size: 150px;
 
-
+}
 .test2 p{
     text-align: right;
     font-size: 25px;
-    color: rgb(27, 179, 93);
+    color: rgba(128, 0, 0, 0.959);
+}
+.s2{
+    text-align: right;
+}
+.s2 h2{
+    display: inline;
+    font-size: 40px;
+    color: white;
+
+}
+    
+
+.s2 h3{
+    display: inline;
+    font-size: 50px;
+    color: red;
+}
+.s3 img{
+    text-align: left;
+    height: 400px;
 }
 .test3 {
     text-align: center;
@@ -49,17 +83,17 @@ body{
     
 }
 .test3 .bb2{
-    font-size: 70px;
+    font-size: 50px;
     border-radius: 50px;
     
           
 }
 .test3 .bb1{
-    font-size: 100px;
+    font-size: 50px;
     border-radius: 50px;
 }
 .test3 .bb3{
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 50px;
 }
 .test3 .bb1:hover{
@@ -73,16 +107,17 @@ body{
     background-color: seagreen;
 }
 .test3 .bb1 a{
-    font-size: 30px;
+    font-size: 43px;
+    
 }
 .test3 .bb2 a{
-    font-size: 45px;
+    font-size: 65px;
 }
 .test3 .bb3 a{
-    font-size: 25px;
+    font-size: 45px;
 }
 .test3 .bb4{
-    font-size: 30px;
+    font-size: 50px;
     border-radius: 50px;
     background-color: black;
 }
@@ -90,19 +125,30 @@ body{
     background-color: seagreen;
 }
 .test3 .bb5{
-    font-size: 20px;
+    font-size: 50px;
     border-radius: 50px;
     background-color: black;
 }
+.test3 .bb5 a{
+    font-size: 30px;
+}
+
 .test3 .bb5:hover{
     background-color: seagreen;
 }
 .test3 .bb6{
-    font-size: 30px;
+    font-size: 50px;
     border-radius: 50px;
     background-color: black;
 }
 .test3 .bb6:hover{
+    background-color: seagreen;
+}
+.test3 .bb7{
+    font-size: 40px;
+    border-radius: 50px;
+}
+.test3 .bb7:hover{
     background-color: seagreen;
 }
 h1{
@@ -126,16 +172,42 @@ h1{
     
 
 }
-
-.m1 h2{
+.m1{
     text-align: center;
-    font-size: 80px;
+}
+.m1 h2{
+    display: inline;
+    font-size: 90px;
     color: darkred;
 }
-.m1 p{
+.m1 h3{
+    display: inline;
+    font-size: 90px;
+    color: white;
+    
+}
+.m1 h4{
+    display: inline;
+    font-size: 90px;
+    color: black;
+}
+.m2 p{
     text-align: right;
     font-size: 30px;
 }
+.test2 .m5{
+    font-size: 30px;
+    color: white;
+}
+.test2 .m6{
+    font-size: 27px;
+    color: black;
+}
+
+
+
+    
+
 
 
 

@@ -1,5 +1,5 @@
 body{
-    background-image: url(blue.jpg);
+    background-image: url(islamic2.jpg);
 
 
 
@@ -21,7 +21,7 @@ body{
 }
 .test2 button{
     margin: 1rem;
-    font-size: xx-large;
+    font-size: 45px;
     border-radius: 50px;
     background-color: black;
 }

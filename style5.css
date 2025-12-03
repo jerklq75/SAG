@@ -1,0 +1,14 @@
+.test{
+    text-align: right;
+    font-size: xx-large;
+}
+.test a{
+    text-decoration: none;
+    color: black;
+}
+.test a:hover{
+    color: skyblue;
+}
+.test1{
+    text-align: center;
+}
