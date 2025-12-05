@@ -1,9 +1,9 @@
 body{
-    background-image: url(button.jpg);
+    background-image: url(محمد.jpg);
 }
 .test1{
     text-align: right;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .test1 a{
     color: white;
@@ -14,14 +14,17 @@ body{
 }
 .test2 button{
     font-size: 45px;
-    background-color: black;
+    background-image: url(button.jpg);
     border-radius: 50px;
     margin: 1rem;
+    padding: 2rem;
 }
 .test2 a{
+    font-size: 60px;
     text-decoration: none;
-    color: skyblue;
+    color: white;
 }
-.test2 button:hover{
-    background-color: seagreen;
+.test2 button a:hover{
+    text-decoration: underline;
+    
 }
