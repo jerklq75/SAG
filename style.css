@@ -105,14 +105,14 @@ body{
     background-color: seagreen;
 }
 .test3 .bb1 a{
-    font-size: 43px;
+    font-size: 46px;
     
 }
 .test3 .bb2 a{
     font-size: 64px;
 }
 .test3 .bb3 a{
-    font-size: 45px;
+    font-size: 47px;
 }
 .test3 .bb4{
     font-size: 50px;
@@ -128,7 +128,7 @@ body{
     background-color: black;
 }
 .test3 .bb5 a{
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .test3 .bb5:hover{
