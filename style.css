@@ -5,13 +5,14 @@ body{
     text-align: right;
     font-size: x-large;
     margin: 20px;
-    
+
     
 }
 .test1 a{
     text-decoration: none;
     color: white;
 }
+
 .test1 a:hover{
     color: skyblue;
 }
@@ -37,10 +38,12 @@ body{
     font-size: 150px;
 
 }
+
 .test2 p{
     text-align: right;
     font-size: 25px;
     color: skyblue;
+    margin: 1rem;
 }
 .s2{
     text-align: right;

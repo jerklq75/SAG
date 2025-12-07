@@ -1,21 +1,27 @@
-div img{
+.test img{
     height: 30vh;
     border-radius: 1000rem;
 }
-div p{
+.test p{
     text-align: right;
     font-size: 20px;
 }
-div .f a{
+.test .m{
+    font-size: x-large;
+    color: seagreen;
+}
+.test .f a{
     text-decoration: none;
     color: white;
 }
+.test1{
+    text-align: center;
 
-div .f button{
-    font-size: larger;
-    background-color: darkgreen;
-    border-radius: 10px;
 }
+.test1 a img{
+    height: 4vh;
+}
+
 
     
 
