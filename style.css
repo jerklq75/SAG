@@ -1,204 +1,373 @@
-body{ 
-    background-color: #6495ED;
+* {
+    margin: 0;
+    padding: 0;
 }
-.test1{
-    text-align: right;
-    font-size: x-large;
-    margin: 20px;
+html {
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-    
+.rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.test1 a{
+  .rubik-gemstones-regular {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;  
+}
+header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+header ul {
+    display: flex;
+    direction: rtl;
+    gap: 3rem;
+    margin-right: 100px;
+}
+header a {
+    font-size: 20px;
     text-decoration: none;
     color: white;
+    font-weight: 700;
 }
-
-.test1 a:hover{
-    color: skyblue;
+header a:hover {
+    border-bottom: solid rgb(80, 118, 241) 2px;
 }
-.test{
+header li {
+    list-style: none;
+}
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    position: relative;
+    height: 100vh;
+    background: url(مسجد.jpg) no-repeat;
+    background-size: cover;
 }
-.test h1{
-    display: inline;
-    
+#section1::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
 }
-.test h1{
-    color: black;
-    font-size: 150px;
+.page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-bottom: 180px;
 }
-.test h2{
-    display: inline;
-    color: white;
-    font-size: 150px;
+.page h1 {
+    font-size: 130px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+    color: rgb(80, 118, 241);
+    text-shadow: 3px -2px black;
 }
-.test h3{
-    display: inline;
-    color: white;
-    font-size: 150px;
-
-}
-
-.test2 p{
-    text-align: right;
+.page p {
     font-size: 25px;
-    color: skyblue;
-    margin: 1rem;
+    font-weight: 400;
+    text-shadow: 0.5px -0.5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.test2 .m7{
-    font-size: 30px;
-    color: black;
-}
-.s2{
-    text-align: right;
-}
-.s2 h2{
-    display: inline;
-    font-size: 40px;
+.page a {
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 35px;
+    border: solid 1px black;
+    border-radius: 3px;
     color: white;
+    width: 90px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: 240px;
+    transition: 0.5s;
+}
+.page a:hover {
+    color: rgb(53, 93, 226);
+    text-decoration: underline;
+}
+
+#stories {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 
 }
-    
-
-.s2 h3{
-    display: inline;
-    font-size: 50px;
+#stories button {
+    font-size: 30px;
+    height: 130px;
+    width: 130px;
+    margin: 20px;
+    background-color: white;
+    border: groove 3px rgb(53, 93, 226);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#stories a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+#stories button:hover {
+    background-color: black;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px 5px black;   
+}
+#stories button:hover a {
+    color: white;
+    letter-spacing: 2.5px;
+}
+#stories h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom: double rgba(53, 93, 226, 0.651) 5px;
+}
+#books {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#books h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom: double rgba(53, 93, 226, 0.651) 5px;
+}
+#books button {
+    height: 160px;
+    width: 160px;
+    margin: 0px 20px;
+    background-color: white;
+    border: groove 3px rgb(53, 93, 226);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#books a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+#books button:hover {
+    background-color: black;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px 5px black;
+}
+#books button:hover a {
+    color: white;
+    letter-spacing: 2.5px;
+}
+#books .link {
+    margin-right: 850px;
+}
+#books .link a {
+    text-decoration: none;
+    color: rgb(17, 98, 204);
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+#books .link a:hover {
+    letter-spacing: 0;
     color: red;
 }
-.s3 img{
-    text-align: left;
-    height: 400px;
+#Azqar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.test3 {
+.container {
     text-align: center;
-    
 }
-.test3 a{
-    text-decoration: none;
-    color: skyblue;
+.container p {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+    line-height: 50px;
+    border: 2px solid rgb(25, 50, 131);
+    direction: rtl;
+    height: 100px;
+    width: 920px;
+    margin-bottom: 10px;
+    box-shadow: -2px -2px 10px 0.5px rgba(0, 0, 0, 0.726);
 }
-.test3 button{
-    height: 5cm;
-    background-color: black;
-    margin: 1rem;
-    border-radius: 10px;
-    
-    
-    
-    
+.hh1 {
+    margin-bottom: 40px;
 }
-.test3 .bb2{
-    font-size: 43px;
-    border-radius: 50px;
-    
-          
+#Azqar h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom: double rgba(53, 93, 226, 0.651) 5px;
 }
-.test3 .bb1{
-    font-size: 50px;
-    border-radius: 50px;
+.container .b1 {
+    margin-right: 200px;
+    height: 15px;
+    width: 15px;
 }
-.test3 .bb3{
-    font-size: 50px;
-    border-radius: 50px;
+#Azqar .word {
+    margin-right: 12cm;
+    font-size: 26px;
+    color: rgb(189, 167, 46);
 }
-.test3 .bb1:hover{
-    background-color: seagreen;
-
-}   
-.test3 .bb2:hover{
-    background-color: seagreen;
-}
-.test3 .bb3:hover{
-    background-color: seagreen;
-}
-.test3 .bb1 a{
-    font-size: 46px;
-    
-}
-.test3 .bb2 a{
-    font-size: 64px;
-}
-.test3 .bb3 a{
-    font-size: 47px;
-}
-.test3 .bb4{
-    font-size: 50px;
-    border-radius: 50px;
-    background-color: black;
-}
-.test3 .bb4:hover{
-    background-color: seagreen;
-}
-.test3 .bb5{
-    font-size: 50px;
-    border-radius: 50px;
-    background-color: black;
-}
-.test3 .bb5 a{
-    font-size: 31px;
-}
-
-.test3 .bb5:hover{
-    background-color: seagreen;
-}
-.test3 .bb6{
-    font-size: 50px;
-    border-radius: 50px;
-    background-color: black;
-}
-.test3 .bb6:hover{
-    background-color: seagreen;
-}
-.test3 .bb7{
-    font-size: 40px;
-    border-radius: 50px;
-}
-.test3 .bb7:hover{
-    background-color: seagreen;
-}
-h1{
-    display: inline;
-
-}
-
-.test2 h2{
+#Azqar .num {
     text-align: right;
-    color: white;
-    font-size: 40px;
+    font-size: 20px;
+    color: rgba(76, 190, 76, 0.781);
 }
-.test2 h2{
-    text-align: right;
-    
-    font-size: 40px;
-    color: white;
-}
-.test2 img{
-    height: 400px;
-    
-
-}
-.m1{
+#videoes {
     text-align: center;
-    font-size: 38PX;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.m1 h4{
-    display: inline;
-    font-size: 90px;
+#videoes h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: double rgba(53, 93, 226, 0.651) 5px;
+}
+footer {
+    display: flex;
+    background-color: darkgray;
+}
+#text {
+    margin-right: 250px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: rgba(0, 0, 0, 0.863);
+}
+.text {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 6px;
     color: black;
 }
-.m2 p{
-    text-align: right;
-    font-size: 30px;
+#text2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 70px;
+
 }
-.test2 .m5{
-    font-size: 30px;
-    color: white;
+#fa i {
+    color: darkblue;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    box-shadow: -3px -3px 3px black;
+    transition: 0.5s;
 }
-.test2 .m6{
-    font-size: 27px;
+#fa i:hover {
+    color: rgba(0, 0, 139, 0.767);
+    transform: scale(1.4);
+}
+#ins i {
+    color: rgb(187, 3, 73);
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    box-shadow: -3px -3px 3px black;
+    transition: 0.5s;
+}
+#ins i:hover {
+    color: rgba(187, 3, 73, 0.664);
+    transform: scale(1.4);
+}
+#you i {
+    color: red;
+    margin-right: 20px;
+    margin-top:15px;
+    margin-bottom: 6px;
+    box-shadow: -3px -3px 3px black;
+    transition: 0.5s;
+}
+#you i:hover {
+    color: rgba(255, 0, 0, 0.74);  
+    transform: scale(1.4);
+}
+#wha i {
+    color: springgreen;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    box-shadow: -3px -3px 3px black;
+    transition: 0.5s;
+}
+#wha i:hover {
+    color: rgba(0, 255, 128, 0.623);
+    transform: scale(1.4);
+}
+#tic i {
     color: black;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    box-shadow: -3px -3px 3px black;
+    transition: 0.5s;
 }
+#tic i:hover {
+    color: rgba(0, 0, 0, 0.781);
+    transform: scale(1.4);
+}
+
+hr {
+    opacity: 20%;
+}
+
+
 
 
 

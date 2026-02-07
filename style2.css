@@ -1,8 +1,6 @@
 body{
     background-color: cadetblue;
 
-
-
 }
 .test1{
     text-align: right;
@@ -13,9 +11,9 @@ body{
     text-decoration: none;
     color: white;
 }
-.test1 a:hover{
-    color: teal;
-}
+.test1 a:hover {
+    color: royalblue;
+}   
 .test2{
     text-align: center;
 }
