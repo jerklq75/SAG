@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.rubik-gemstones-regular {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
 html {
     scroll-behavior: smooth;
 }
@@ -118,7 +123,6 @@ header li {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-
 }
 #stories button {
     font-size: 30px;
@@ -126,7 +130,7 @@ header li {
     width: 130px;
     margin: 20px;
     background-color: white;
-    border: groove 3px rgb(53, 93, 226);
+    border: groove 3px #355de2;
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -152,61 +156,35 @@ header li {
     padding-bottom: 6px;
     border-bottom: double rgba(53, 93, 226, 0.651) 5px;
 }
+
 #books {
-    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    flex-direction: column;
+    gap: 3rem;
+    height: 100vh;
+}
+#books div {
+    display: flex;
+    gap: 5rem;
 }
 #books h1 {
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 6px;
-    border-bottom: double rgba(53, 93, 226, 0.651) 5px;
+    border-bottom: double rgba(53, 93, 226, 0.651) 5px;   
+}
+#books button img {
+    height: 220px;
+    width: 160px;
+    border-radius: 5px;
 }
 #books button {
-    height: 160px;
-    width: 160px;
-    margin: 0px 20px;
-    background-color: white;
-    border: groove 3px rgb(53, 93, 226);
-    border-radius: 20px;
-    transition: 0.5s;
+    border: none;
 }
-#books a {
-    text-decoration: none;
-    padding: 20px 20px;
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
-    transition: 0.5s;
-}
-#books button:hover {
-    background-color: black;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 5px black;
-}
-#books button:hover a {
-    color: white;
-    letter-spacing: 2.5px;
-}
-#books .link {
-    margin-right: 850px;
-}
-#books .link a {
-    text-decoration: none;
-    color: rgb(17, 98, 204);
-    font-size: 15px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    transition: 0.5s;
-}
-#books .link a:hover {
-    letter-spacing: 0;
-    color: red;
-}
+
+
 #Azqar {
     display: flex;
     justify-content: center;
@@ -217,6 +195,9 @@ header li {
     text-align: center;
 }
 .container p {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
     color: black;
     background-color: white;
@@ -255,8 +236,10 @@ header li {
 #Azqar .num {
     text-align: right;
     font-size: 20px;
-    color: rgba(76, 190, 76, 0.781);
+    color: rgb(7, 201, 7);
 }
+
+
 #videoes {
     text-align: center;
     display: flex;
@@ -272,101 +255,44 @@ header li {
     margin-top: 40px;
     border-bottom: double rgba(53, 93, 226, 0.651) 5px;
 }
-footer {
+footer svg {
+    padding: 0;
+    margin: 0;
+    transform: translateY(4px);
+}
+footer section {
     display: flex;
-    background-color: darkgray;
-}
-#text {
-    margin-right: 250px;
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 6px;
-    color: rgba(0, 0, 0, 0.863);
-}
-.text {
-    font-size: 17px;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 6px;
-    color: black;
-}
-#text2 {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 900;
-    margin-right: 70px;
-
+    background-color: #355de2;
+    padding-bottom: 100px;
+    gap: 1rem;
 }
-#fa i {
+footer i {
+    color: white;
+}
+footer a {
+    font-size: 30px;
+}
+.fa-facebook {
     color: darkblue;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 6px;
-    box-shadow: -3px -3px 3px black;
-    transition: 0.5s;
 }
-#fa i:hover {
-    color: rgba(0, 0, 139, 0.767);
-    transform: scale(1.4);
-}
-#ins i {
+.fa-instagram {
     color: rgb(187, 3, 73);
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 6px;
-    box-shadow: -3px -3px 3px black;
-    transition: 0.5s;
 }
-#ins i:hover {
-    color: rgba(187, 3, 73, 0.664);
-    transform: scale(1.4);
-}
-#you i {
+.fa-youtube {
     color: red;
-    margin-right: 20px;
-    margin-top:15px;
-    margin-bottom: 6px;
-    box-shadow: -3px -3px 3px black;
-    transition: 0.5s;
 }
-#you i:hover {
-    color: rgba(255, 0, 0, 0.74);  
-    transform: scale(1.4);
-}
-#wha i {
+.fa-whatsapp {
     color: springgreen;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 6px;
-    box-shadow: -3px -3px 3px black;
-    transition: 0.5s;
 }
-#wha i:hover {
-    color: rgba(0, 255, 128, 0.623);
-    transform: scale(1.4);
-}
-#tic i {
+.fa-tiktok {
     color: black;
-    margin-top: 15px;
-    margin-bottom: 6px;
-    box-shadow: -3px -3px 3px black;
-    transition: 0.5s;
-}
-#tic i:hover {
-    color: rgba(0, 0, 0, 0.781);
-    transform: scale(1.4);
 }
 
-hr {
-    opacity: 20%;
-}
 
+
+ 
 
 
 
